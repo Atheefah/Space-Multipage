@@ -53,22 +53,22 @@
          <p class="firsttext">
             <span>01</span> PICK YOUR DESTINATION
          </h5>
-         <img src="./assets/destination/image-moon.png" alt="" id="moonimage">
+         <img id="planet" src="./assets/destination/image-moon.png" alt="" id="moonimage">
       </section>
       <section class="second-grid">
          <nav id="navbar2">
             <ul>
                <li>
-                  <button class="nav-text">MOON</button>
+                  <button class="nav-text" id="moon-btn" onclick="desFunc()">MOON</button>
                </li>
                <li>
-                  <button class="nav-text  active">MARS</button>
+                  <button class="nav-text" id="mars-btn">MARS</button>
                </li>
                <li>
-                  <button class="nav-text">EUROPA</button>
+                  <button class="nav-text" id="europa-btn">EUROPA</button>
                </li>
                <li>
-                  <button class="nav-text">TITAN</button>
+                  <button class="nav-text" id="titan-btn">TITAN</button>
                </li>
             </ul>
          </nav>
@@ -90,6 +90,7 @@
          </div>
       </section>
    </main>
+   <script src="space.js"></script>
 </body>
 
 </html>
