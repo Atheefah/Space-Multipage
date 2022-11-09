@@ -176,7 +176,7 @@ p.firsttext {
 .body-text {
    margin-top: 20px;
       font-family: "Barlow Condensed";
-      font-size: 30px;
+      font-size: 3rem;
       color: var(--pale-blue);
       line-height: 40px;
       letter-spacing: 3px;
@@ -220,4 +220,7 @@ main .container #crew-nav-btns li .crew-nav-btn.active {
 }
 main img{
    width:80rem;
+}
+.crew-nav-btn-active{
+   background-color: white;
 }
