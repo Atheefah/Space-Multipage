@@ -231,14 +231,14 @@ p .firsttext span {
    letter-spacing: 2.7px;
    color: #d0d6f9;
 }
-.tech-name{
+#tech-name{
    font-family: "Bellefair";
       font-size: 92px;
 }
-.body-text {
+#body-text {
    margin-top: 20px;
       font-family: "Barlow Condensed";
-      font-size: 50px;
+      font-size: 3rem;
       color: var(--pale-blue);
       line-height: 60px;
       letter-spacing: 3px;
